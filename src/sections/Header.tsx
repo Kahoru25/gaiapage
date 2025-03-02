@@ -2,12 +2,12 @@ import { Logo, MenuIcon } from "@/assets";
 // import { Button } from "@/components/Button";
 import Link from "next/link";
 
-const navItems = [
-  { href: "#", title: "Conoce a GAIA" },
-  // { href: "#", title: "Developers" },
-  // { href: "#", title: "Pricing" },
-  // { href: "#", title: "Changelog" },
-];
+// const navItems = [
+//   { href: "#", title: "Conoce a GAIA" },
+//   { href: "#", title: "Developers" },
+//   { href: "#", title: "Pricing" },
+//   { href: "#", title: "Changelog" },
+// ];
 
 export const Header = () => {
   return (
@@ -22,8 +22,8 @@ export const Header = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <nav className="flex gap-8 text-sm">
-              {navItems.map((link, index) => (
+            {/* <nav className="flex gap-8 text-sm">
+              {/* {navItems.map((link, index) => (
                 <Link
                   key={index}
                   href={link.href}
@@ -32,11 +32,13 @@ export const Header = () => {
                   {link.title}
                 </Link>
               ))}
-            </nav>
+            </nav> */}
+            <h1 style={{ fontFamily: 'Roboto, sans-serif', fontSize: '1.5em' }} className="text-center">Bienvenido a GAIA</h1>
           </div>
           <div className="flex items-center gap-4">
+          <h1 style={{ fontFamily: 'Roboto, sans-serif', fontSize: '1.5em' }} className="text-center md:hidden">Bienvenido a GAIA</h1>
             {/* <Button>Join waitlist</Button> */}
-            <MenuIcon className="md:hidden" />
+            {/* <MenuIcon className="md:hidden" /> */}
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ export const Hero = () => {
         ease: "linear",
       }}
     >
-      <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgb(175,255,51,0.5)_15%,rgb(14,0,36,0.5)_78%,transparent)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgb(60,255,51,0.5)_15%,rgb(14,0,36,0.5)_78%,transparent)]"></div>
       {/* Start Planet */}
       <div className="absolute size-64 md:size-96 bg-green-400 border border-white/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(50%_50%_at_16.8%_18.3%,white,rgb(0,200,0)_37.7%,rgb(0,50,0))] shadow-[-20px_-20px_50px_rgb(255,255,255,0.5),-20px_-20px_80px_rgb(255,255,255,0.1),0_0_50px_rgb(140,69,255)] rounded-full"></div>
       {/* End Planet */}
@@ -100,7 +100,7 @@ export const Hero = () => {
           GAIA
         </h1>
         <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
-        Tu asistente de inteligencia artificial para la gestión ambiental
+        Gestor Ambiental<br></br>Integral Automatizado
         </p>
         <div className="flex justify-center mt-5">
           {/* <Button>Ir al asistente</Button> */}

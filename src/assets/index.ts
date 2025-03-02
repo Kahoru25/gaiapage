@@ -18,4 +18,14 @@ export { default as ProductImage } from "@/assets/product-image.png";
 export { default as SocialInstagram } from "@/assets/social-instagram.svg";
 export { default as SocialX } from "@/assets/social-x.svg";
 export { default as SocialYoutube } from "@/assets/social-youtube.svg";
+export { default as supabase } from "@/assets/supabase.png";
+export { default as whatsapp } from "@/assets/whatsapp.png";
+export { default as meta } from "@/assets/meta.png";
+export { default as node } from "@/assets/node.png";
+export { default as openai } from "@/assets/openai.png";
+export { default as power } from "@/assets/power-automate.png";
 export { default as StarsImage } from "@/assets/stars.png";
+export { default as SocialGithub } from "@/assets/social-github.svg";
+export { default as webhook } from "@/assets/webhook.png";
+export { default as google } from "@/assets/google-cloud.png";
+

@@ -6,30 +6,44 @@ import {
   QuantumLogo,
   PulseLogo,
   EchoLogo,
+  supabase,
+  openai,
+  node,
+  power,
+  whatsapp,
+  webhook,
+  google,
+  meta,
 } from "@/assets";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const logos = [
-  AcmeLogo,
-  PulseLogo,
-  EchoLogo,
-  CelestialLogo,
-  ApexLogo,
-  QuantumLogo,
+  supabase,
+  openai,
+  google,
+  meta,
+  node,
+  power,
+  whatsapp,
+  webhook
 ];
+// #808080
 
 export const LogoTicker = () => {
   return (
-    <section className="py-20 md:py-24">
+    <section className="py- md:py-24">
       <div className="container">
-        <div className="flex items-center gap-5">
-          <div className="flex-1 md:flex-none">
-            <h2>Trusted by top innovative teams</h2>
+      <h1 style={{ fontFamily: 'Roboto, sans-serif', fontSize: '1.5em' }} className="text-center">
+  Tecnologías Implementadas
+</h1>
+
+        <div className="py-5 flex items-center gap-5">
+          <div className="flex-0 md:flex-none">
           </div>
-          <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
+          <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_30%,black_60%,transparent)]">
             <motion.div
-              initial={{ translateX: "-50%" }}
+              initial={{ translateX: "-40%" }}
               animate={{ translateX: "0" }}
               transition={{
                 duration: 30,
@@ -44,8 +58,8 @@ export const LogoTicker = () => {
                   src={logo.src}
                   width={logo.width}
                   height={logo.height}
-                  alt="Logo Ticker"
-                  className="h-6 w-auto"
+                  alt="Tecnologias implementados"
+                  className="h-12 w-auto"
                 />
               ))}
             </motion.div>

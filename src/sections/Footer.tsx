@@ -1,13 +1,13 @@
-import { Logo, SocialX, SocialInstagram, SocialYoutube } from "@/assets";
+import { Logo, SocialX, SocialInstagram, SocialYoutube, SocialGithub } from "@/assets";
 import Link from "next/link";
 
-const navItems = [
-  { href: "#", title: "Tu asistente" },
-  // { href: "#", title: "Developers" },
-  // { href: "#", title: "Company" },
-  // { href: "#", title: "Blog" },
-  // { href: "#", title: "Changelog" },
-];
+// const navItems = [
+//   { href: "#", title: "Tu asistente" },
+//   // { href: "#", title: "Developers" },
+//   // { href: "#", title: "Company" },
+//   // { href: "#", title: "Blog" },
+//   // { href: "#", title: "Changelog" },
+// ];
 
 export const Footer = () => {
   return (
@@ -19,7 +19,7 @@ export const Footer = () => {
             <span className="font-medium">Hecho por Jeysson Gonzalez ♥️</span>
           </div>
           <nav className="flex flex-col lg:flex-row gap-5 lg:gap-7 lg:flex-1 lg:justify-center">
-            {navItems.map((link, index) => (
+            {/* {navItems.map((link, index) => (
               <Link
                 key={index}
                 href={link.href}
@@ -27,12 +27,14 @@ export const Footer = () => {
               >
                 {link.title}
               </Link>
-            ))}
+            ))} */}
           </nav>
           <div className="flex gap-5 lg:flex-1 lg:justify-end">
-            <SocialX className="text-white/40 hover:text-white transition" />
-            <SocialInstagram className="text-white/40 hover:text-white transition" />
-            <SocialYoutube className="text-white/40 hover:text-white transition" />
+          <a href="https://github.com/Kahoru25" target="_blank" rel="noopener noreferrer">
+            <SocialGithub className="hover:text-white transition gray-color" style={{ width: '19.5px', height: '19.5px' }} 
+  />
+</a>
+
           </div>
         </div>
       </div>
