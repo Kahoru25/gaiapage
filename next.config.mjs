@@ -1,6 +1,4 @@
-import { defineConfig } from 'next';
-
-export default defineConfig({
+const nextConfig = {
   output: 'standalone',
   webpack(config) {
     // Grab the existing rule that handles SVG imports
@@ -29,4 +27,6 @@ export default defineConfig({
 
     return config;
   },
-});
+};
+
+export default nextConfig;
