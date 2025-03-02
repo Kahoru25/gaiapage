@@ -1,11 +1,5 @@
 "use client";
 import {
-  AcmeLogo,
-  ApexLogo,
-  CelestialLogo,
-  QuantumLogo,
-  PulseLogo,
-  EchoLogo,
   supabase,
   openai,
   node,
