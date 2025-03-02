@@ -35,7 +35,7 @@ export const LogoTicker = () => {
         <div className="py-5 flex items-center gap-5">
           <div className="flex-0 md:flex-none">
           </div>
-          <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_30%,black_60%,transparent)]">
+          <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_30%,black_70%,transparent)]">
             <motion.div
               initial={{ translateX: "-40%" }}
               animate={{ translateX: "0" }}
